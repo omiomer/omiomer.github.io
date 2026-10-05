@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Ph.D. Candidate, <a href="https://www.wbs.ac.uk/">Warwick Business School</a>, University of Warwick. On the 2026–27 job market.
 
@@ -33,13 +33,13 @@ Alongside my Ph.D., I have been a research assistant at the UCL School of Manage
 
 I am on the 2026–27 job market for faculty positions in operations research, operations management and business analytics, and for research roles in industry. My CV is available [here](/cv/).
 
-## job market paper
+## Job Market Paper
 
 <div class="publications">
 {% bibliography --group_by none --query @*[keywords=jmp]* %}
 </div>
 
-## news
+## News
 
 <!-- Keep the table inside div.news: al-folio's script otherwise marks the parent block as table-responsive, which pushes the bio below the photo. -->
 <div class="news">
@@ -49,15 +49,15 @@ I am on the 2026–27 job market for faculty positions in operations research, o
   </table>
 </div>
 
-## selected publications
+## Selected Publications
 
 <div class="publications">
 {% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 
-The full list of papers is on the [research](/publications/) page.
+The full list of papers is on the [Research](/publications/) page.
 
-## references
+## References
 
 <div class="row references">
   <div class="col-sm-4" style="margin-bottom: 1rem">

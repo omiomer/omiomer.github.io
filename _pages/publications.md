@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: research
+title: Research
 description:
 nav: true
 nav_order: 1
@@ -11,16 +11,16 @@ nav_order: 1
 
 <div class="publications">
 
-<h2>job market paper</h2>
+<h2>Job Market Paper</h2>
 {% bibliography --group_by none --query @*[keywords=jmp]* %}
 
-<h2>working papers</h2>
+<h2>Working Papers</h2>
 {% bibliography --group_by none --query @*[keywords=working]* %}
 
-<h2>work in progress</h2>
+<h2>Work in Progress</h2>
 {% bibliography --group_by none --query @*[keywords=wip]* %}
 
-<h2>refereed publications</h2>
+<h2>Refereed Publications</h2>
 {% bibliography --group_by none --query @*[keywords=refereed]* %}
 
 </div>
