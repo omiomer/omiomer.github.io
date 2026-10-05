@@ -6,7 +6,7 @@ subtitle: Ph.D. Candidate · <a href="https://www.wbs.ac.uk/">Warwick Business S
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: omer_ekmekcioglu.jpg
   image_circular: false
   more_info: >
     <p>Warwick Business School</p>

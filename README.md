@@ -13,7 +13,7 @@ triggers `.github/workflows/deploy.yml`, which builds the site into the `gh-page
 | Papers (grouped by the `keywords` field: `jmp`, `working`, `wip`, `refereed`) | `_bibliography/papers.bib` |
 | Teaching | `_pages/teaching.md` |
 | CV | replace `assets/pdf/CV_Omer_Ekmekcioglu.pdf` |
-| Photo | replace `assets/img/prof_pic.jpg` |
+| Photo | add the new photo to `assets/img/` under a **new** filename and point `profile.image` in `_pages/about.md` at it (reusing a filename lets browsers keep showing the cached old photo) |
 | Social links | `_data/socials.yml` |
 | Name, description, search keywords | `_config.yml` |
 
