@@ -9,7 +9,7 @@ last_name: Ekmekcioğlu
 contact_note: >
   Email is the best way to reach me.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Ömer Ekmekcioğlu (Omer Ekmekcioglu), Ph.D. candidate at Warwick Business School working on Bayesian optimization, bilevel and multi-objective optimization, and machine learning for operations. On the 2026–27 academic and industry job market.
+  Ömer Ekmekcioğlu (Omer Ekmekcioglu) is a Ph.D. candidate at Warwick Business School working on Bayesian optimization for expensive decision-making problems, including bilevel and multi-objective problems and optimization with large language models. On the 2026–27 job market.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
