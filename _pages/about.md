@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Ph.D. Candidate · <a href="https://www.wbs.ac.uk/">Warwick Business School</a>, University of Warwick · <strong>On the 2026–27 academic and industry job market</strong>
+subtitle: Ph.D. Candidate, <a href="https://www.wbs.ac.uk/">Warwick Business School</a>, University of Warwick. On the 2026–27 job market.
 
 profile:
   align: right
@@ -23,13 +23,15 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. candidate in the ISMA group at Warwick Business School, advised by [Juergen Branke](https://www.wbs.ac.uk/about/person/juergen-branke/) and Nursen Aydin. My research asks a practical question: **given a fixed budget of expensive experiments, which one should be run next?** I develop Bayesian optimization methods for problems where every evaluation is costly — bilevel problems in which a leader must anticipate how a follower will respond, multi-objective problems, and high-dimensional black boxes — with applications in pricing under strategic response, toll setting and mechanism design.
+I am a Ph.D. candidate at Warwick Business School, University of Warwick, advised by [Juergen Branke](https://www.wbs.ac.uk/about/person/juergen-branke/) and Nursen Aydin. My research is on expensive decision-making problems, which appear throughout operations research, engineering and the sciences. Given a fixed budget for expensive evaluations, the goal is to choose the next experiment well while learning a black-box objective along the way. I work on Bayesian optimization and extend it to problem structures that are complex and difficult to solve.
 
-Alongside my Ph.D., I have been a research assistant at the UCL School of Management since 2023. Before Warwick, I completed an M.S. in Industrial Engineering and a B.S. in Electrical and Electronics Engineering at Bilkent University.
+Most of my recent work is on bilevel problems, in which a leader chooses an action and a follower responds to it, as in pricing when customers react to the price or in toll setting when drivers change their routes. My job market paper models both levels as Gaussian processes over the joint space of leader and follower decisions, so that what is learned about one follower problem carries over to similar ones. With my advisors, I am extending this framework to bilevel problems with multiple objectives at both levels.
 
-I am on the 2026–27 job market for **faculty positions** in operations research, operations management and business analytics, and for **industry research roles** in Bayesian optimization, experimentation and applied machine learning. My [CV is here](/cv/).
+I have also worked on surrogate models for Bayesian optimization. In a paper accepted at LION 20, I show that no single surrogate is best across problems and propose a mixture that uses a bandit rule to switch between Gaussian process and neural network surrogates. My current work combines Bayesian optimization with large language models, both to optimize prompts under an API budget and to decide which LLM-generated candidates are worth an expensive evaluation.
 
-**Research interests:** Bayesian optimization · bilevel and multi-objective optimization · simulation optimization · machine learning for operations
+Alongside my Ph.D., I have been a research assistant at the UCL School of Management since 2023, where I built a decision-support tool for thalassemia treatment planning that is used by physicians. Before Warwick, I received an M.S. in Industrial Engineering and a B.S. in Electrical and Electronics Engineering from Bilkent University.
+
+I am on the 2026–27 job market for faculty positions in operations research, operations management and business analytics, and for research roles in industry. My CV is available [here](/cv/).
 
 ## job market paper
 
@@ -37,15 +39,12 @@ I am on the 2026–27 job market for **faculty positions** in operations researc
 {% bibliography --group_by none --query @*[keywords=jmp]* %}
 </div>
 
-Bilevel problems in which both the leader's and the follower's objectives are expensive black boxes. Both levels are modelled as Gaussian processes, and an acquisition strategy allocates a fixed evaluation budget across the two levels, so the follower's response is estimated rather than computed.
-
 ## news
 
 <!-- Keep the table inside div.news: al-folio's script otherwise marks the parent block as table-responsive, which pushes the bio below the photo. -->
 <div class="news">
   <table class="table table-sm table-borderless">
-    <tr><th scope="row" style="width: 20%">Oct 2026</th><td>On the 2026–27 academic and industry job market.</td></tr>
-    <tr><th scope="row">Jun 2026</th><td>Presented my job market paper at the SIAM Conference on Optimization (OP26), Edinburgh.</td></tr>
+    <tr><th scope="row" style="width: 20%">Jun 2026</th><td>Presented my job market paper at the SIAM Conference on Optimization (OP26), Edinburgh.</td></tr>
     <tr><th scope="row">Jun 2026</th><td>Presented <em>Combining Gaussian Processes and Neural Networks as Surrogate Models in Bayesian Optimization</em> at LION 20, Milan; LNCS proceedings forthcoming.</td></tr>
   </table>
 </div>
@@ -56,7 +55,7 @@ Bilevel problems in which both the leader's and the follower's objectives are ex
 {% bibliography --group_by none --query @*[selected=true]* %}
 </div>
 
-See all [research](/publications/).
+The full list of papers is on the [research](/publications/) page.
 
 ## references
 

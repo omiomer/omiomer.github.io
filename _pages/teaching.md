@@ -7,8 +7,6 @@ nav: true
 nav_order: 2
 ---
 
-Average student evaluation **4.7 / 5** across seminar teaching at Warwick Business School.
-
 ## Warwick Business School, University of Warwick
 
 **Seminar Tutor** · 2023 – present
@@ -18,7 +16,7 @@ Average student evaluation **4.7 / 5** across seminar teaching at Warwick Busine
 - Forecasting
 - Introduction to Statistics
 
-Designed seminar material in R and Python.
+I designed the seminar material in R and Python. My average student evaluation is 4.7 out of 5.
 
 ## Bilkent University
 
