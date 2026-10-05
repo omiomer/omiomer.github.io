@@ -16,7 +16,7 @@ nav_order: 2
 - Forecasting
 - Introduction to Statistics
 
-I designed the seminar material in R and Python. My average student evaluation is 4.7 out of 5.
+I am proud that students rated my seminars 4.7 out of 5 on average.
 
 ## Bilkent University
 
