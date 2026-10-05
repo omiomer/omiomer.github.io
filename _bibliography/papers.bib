@@ -1,0 +1,112 @@
+---
+---
+
+% Grouping on the research page is driven by `keywords`:
+%   jmp       -> Job Market Paper
+%   working   -> Working Papers
+%   wip       -> Work in Progress
+%   refereed  -> Refereed Publications
+% `selected = {true}` puts an entry on the about page.
+
+@unpublished{ekmekcioglu2024bilevel,
+  abbr     = {JMP},
+  title    = {Bayesian Optimization of Bilevel Problems},
+  author   = {Ekmekcioğlu, Ömer and Aydin, Nursen and Branke, Juergen},
+  year     = {2024},
+  note     = {Working paper. Presented at the SIAM Conference on Optimization (OP26), Edinburgh, June 2026.},
+  arxiv    = {2412.18518},
+  abstract = {Bilevel optimization, a hierarchical mathematical framework where one optimization problem is nested within another, has emerged as a powerful tool for modeling complex decision-making processes in various fields such as economics, engineering, and machine learning. This paper focuses on bilevel optimization where both upper-level and lower-level functions are black boxes and expensive to evaluate. We propose a Bayesian Optimization framework that models the upper and lower-level functions as Gaussian processes over the combined space of upper and lower-level decisions, allowing us to exploit knowledge transfer between different sub-problems. Additionally, we propose a novel acquisition function for this model. Our experimental results demonstrate that the proposed algorithm is highly sample-efficient and outperforms existing methods in finding high-quality solutions.},
+  keywords = {jmp}
+}
+
+@unpublished{ekmekcioglu2026multiobjective,
+  abbr     = {WP},
+  title    = {Bayesian Optimization of Multi-Objective Bilevel Problems},
+  author   = {Ekmekcioğlu, Ömer and Aydin, Nursen and Branke, Juergen},
+  year     = {2026},
+  note     = {Manuscript in preparation.},
+  abstract = {Proposes PareTS, a projected Thompson-sampling method for bilevel problems with multiple black-box objectives at both levels, in which a single coupled query returns every leader and follower objective. Covers optimistic and pessimistic follower behaviour and carries an asymptotic consistency guarantee; nested BO and evolutionary baselines need 130 and 8,128 times the evaluation budget to reach comparable solution quality.},
+  keywords = {working}
+}
+
+@unpublished{ekmekcioglu2026participatory,
+  abbr     = {WIP},
+  title    = {Bilevel Bayesian Optimization for Participatory Budgeting Mechanism Design},
+  author   = {Ekmekcioğlu, Ömer},
+  year     = {2026},
+  note     = {Work in progress.},
+  keywords = {wip}
+}
+
+@unpublished{ekmekcioglu2026prompt,
+  abbr     = {WIP},
+  title    = {Bayesian Optimization over Language-Model Prompt Spaces with Fidelity-Aware Noise},
+  author   = {Ekmekcioğlu, Ömer},
+  year     = {2026},
+  note     = {Work in progress.},
+  keywords = {wip}
+}
+
+@inproceedings{ekmekcioglu2026lion,
+  abbr      = {LION},
+  title     = {Combining Gaussian Processes and Neural Networks as Surrogate Models in Bayesian Optimization},
+  author    = {Ekmekcioğlu, Ömer and Branke, Juergen and Aydin, Nursen},
+  booktitle = {Learning and Intelligent Optimization (LION 20), Lecture Notes in Computer Science},
+  year      = {2026},
+  note      = {Accepted, forthcoming.},
+  keywords  = {refereed},
+  selected  = {true}
+}
+
+@article{ekmekcioglu2025dental,
+  abbr     = {IJLM},
+  title    = {Comparison of Different Dental Age Estimation Methods with Deep Learning: Willems, Cameriere-European, London Atlas},
+  author   = {Yavuz, Betul Sen and Ekmekcioğlu, Ömer and Ankarali, Handan},
+  journal  = {International Journal of Legal Medicine},
+  volume   = {139},
+  number   = {4},
+  pages    = {1661--1672},
+  year     = {2025},
+  doi      = {10.1007/s00414-025-03452-y},
+  keywords = {refereed}
+}
+
+@article{ekmekcioglu2023gnn,
+  abbr     = {NCAA},
+  title    = {Graph Neural Networks for Deep Portfolio Optimization},
+  author   = {Ekmekcioğlu, Ömer and Pınar, Mustafa Ç.},
+  journal  = {Neural Computing and Applications},
+  volume   = {35},
+  number   = {28},
+  pages    = {20663--20674},
+  year     = {2023},
+  doi      = {10.1007/s00521-023-08862-w},
+  code     = {https://github.com/omiomer/DeepPortfolioOpt},
+  keywords = {refereed},
+  selected = {true}
+}
+
+@article{ekmekcioglu2021subset,
+  abbr     = {SigPro},
+  title    = {Subset Based Error Recovery},
+  author   = {Ekmekcioğlu, Ömer and Akkaya, Deniz and Pınar, Mustafa Ç.},
+  journal  = {Signal Processing},
+  volume   = {191},
+  pages    = {108361},
+  year     = {2021},
+  doi      = {10.1016/j.sigpro.2021.108361},
+  keywords = {refereed}
+}
+
+@article{ekmekcioglu2021sparse,
+  abbr     = {OPTE},
+  title    = {Provably Optimal Sparse Solutions to Overdetermined Linear Systems with Non-Negativity Constraints in a Least-Squares Sense by Implicit Enumeration},
+  author   = {Aktaş, Fatih S. and Ekmekcioğlu, Ömer and Pınar, Mustafa Ç.},
+  journal  = {Optimization and Engineering},
+  volume   = {22},
+  number   = {4},
+  pages    = {2505--2535},
+  year     = {2021},
+  doi      = {10.1007/s11081-021-09676-2},
+  keywords = {refereed}
+}
