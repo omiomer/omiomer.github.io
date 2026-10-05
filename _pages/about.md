@@ -23,15 +23,21 @@ latest_posts:
   enabled: false
 ---
 
-I am a Ph.D. candidate at Warwick Business School, University of Warwick, advised by [Juergen Branke](https://www.wbs.ac.uk/about/person/juergen-branke/) and Nursen Aydin. My research is on expensive decision-making problems, which appear throughout operations research, engineering and the sciences. Given a fixed budget for expensive evaluations, the goal is to choose the next experiment well while learning a black-box objective along the way. I work on Bayesian optimization and extend it to problem structures that are complex and difficult to solve.
+I am a Ph.D. candidate at Warwick Business School, University of Warwick, advised by [Juergen Branke](https://www.wbs.ac.uk/about/person/juergen-branke/) and Nursen Aydin. My research is on expensive decision-making problems. Given a fixed budget for expensive evaluations, the goal is to choose the next experiment well while learning a black-box objective along the way. I work on Bayesian optimization and extend it to problem structures that are complex and difficult to solve.
 
-Most of my recent work is on bilevel problems, in which a leader chooses an action and a follower responds to it, as in pricing when customers react to the price or in toll setting when drivers change their routes. My job market paper models both levels as Gaussian processes over the joint space of leader and follower decisions, so that what is learned about one follower problem carries over to similar ones. With my advisors, I am extending this framework to bilevel problems with multiple objectives at both levels.
+Most of my recent work is on bilevel problems. I have also worked on high-dimensional and multi-objective problems, and on surrogate models.
 
-I have also worked on surrogate models for Bayesian optimization. In a paper accepted at LION 20, I show that no single surrogate is best across problems and propose a mixture that uses a bandit rule to switch between Gaussian process and neural network surrogates. My current work combines Bayesian optimization with large language models, both to optimize prompts under an API budget and to decide which LLM-generated candidates are worth an expensive evaluation.
+My current work brings principled Bayesian optimization methods to automated discovery with large language models.
 
 Alongside my Ph.D., I have been a research assistant at the UCL School of Management since 2023, where I built a decision-support tool for thalassemia treatment planning that is used by physicians. Before Warwick, I received an M.S. in Industrial Engineering and a B.S. in Electrical and Electronics Engineering from Bilkent University.
 
 I am on the 2026–27 job market for faculty positions in operations research, operations management and business analytics, and for research roles in industry. My CV is available [here](/cv/).
+
+<!--
+  Edit the text above freely. The HTML blocks below (div, table, row) are layout code:
+  keep them as HTML and only change the words inside them. If an editor converts them
+  to Markdown, the bio drops below the photo and the publication/reference styling breaks.
+-->
 
 ## Job Market Paper
 
@@ -41,7 +47,6 @@ I am on the 2026–27 job market for faculty positions in operations research, o
 
 ## News
 
-<!-- Keep the table inside div.news: al-folio's script otherwise marks the parent block as table-responsive, which pushes the bio below the photo. -->
 <div class="news">
   <table class="table table-sm table-borderless">
     <tr><th scope="row" style="width: 20%">Jun 2026</th><td>Presented my job market paper at the SIAM Conference on Optimization (OP26), Edinburgh.</td></tr>
